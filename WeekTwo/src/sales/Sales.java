@@ -17,7 +17,7 @@ public class Sales {
     }//Closes the main statement
     
     public static class SalesPerson {
-        private double fixedSalery = 30_000.00, commPercent = 0.08; // initializes the fixed sallery and commission percentage. Marked as private to protect data
+        private double fixedSalery = 30_000.00, commPercent = 0.08; // initializes the fixed salery and commission percentage. Marked as private to protect data
         private double totalAnnualSales, totalAnnualComp, commission; //creates fields that will be used for calculations
         Scanner input = new Scanner(System.in); //constructs new scanner object named input to capture the input of the user
         public  SalesPerson() {//Creation of sales person object
